@@ -21,6 +21,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run script file
       run: |
-         chmod +x https://github.com/Methamphetamine/bash-warp-generator/blob/main/warp_generator.sh
-         https://github.com/Methamphetamine/bash-warp-generator/blob/main/warp_generator.sh
+         git update-index --chmod=+x  ./.github/warp_generator.sh
+         
       shell: bash
