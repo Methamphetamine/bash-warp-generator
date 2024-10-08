@@ -22,5 +22,5 @@ jobs:
     - name: Run script file
       run: |
         chmod +x warp_generator.sh
-         
+        ./warp_generator.sh
       shell: bash
